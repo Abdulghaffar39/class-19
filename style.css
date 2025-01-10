@@ -5,25 +5,25 @@
     box-sizing: border-box;
 }
 
+.nav {
+
+
+}
+
 ul {
 
+    position: fixed;
     width: 100%;
-    padding: 12px;
     text-align: end;
+    padding: 20px;
+    z-index: 1;
     background-color: skyblue;
 }
 
 li {
 
-    
-    position: fixed;
-    top: 0;
-    bottom: 20px;
     display: inline;
-    text-align: end;
-    font-size: 12px;
-    color: #000000;
-    margin: 20px;
+    margin: 35px;
     cursor: pointer;
 }
 
@@ -39,7 +39,6 @@ li:hover {
     width: 300px;
     height: 1500px;
     margin: 50px auto;
-
 }
 
 .red {
@@ -88,4 +87,4 @@ li:hover {
     border-radius: 60px;
     width: 100px;
     height: 100px;
-}
+} 
